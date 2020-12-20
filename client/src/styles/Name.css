@@ -1,0 +1,88 @@
+.name_container{
+    margin: 10px 0 0 0;
+    padding: 30px 20px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+@media (max-width: 800px){
+    .name_container{
+        padding: 10px 10px;
+        border-top: 0px solid rgba(0,0,0,0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }   
+}
+
+.name{
+    font-size: 44px;
+    line-height: 44px;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.careers {
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+@media (max-width: 800px){
+    .careers{
+        text-align: center;
+    }
+}
+
+.careers h2{
+    display: inline-block;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+
+.full_stack{
+    color: #3b3a30;
+}
+
+.developer{
+    color: #337ab7;
+}
+
+.tutor{
+    color:#6a2b97;
+    opacity: 0.9;
+}
+
+.volunteer{
+    color:#5cb85c;
+    opacity: 0.8;
+}
+
+.cashier{
+    color:#e28e6d;
+    opacity: 0.7;
+}
+
+.gamer{
+    color:#B1DBDF;
+    opacity: 1;
+}
+
+.musician{
+    color:#f7786b;
+    opacity: 0.3;
+}
+
+.and{
+    color: #3b3a30;
+}
+
+.additional_info{
+    display: inline-block;
+}
+
+@media (max-width: 800px){
+    .additional_info{
+        display: none;
+    }
+}

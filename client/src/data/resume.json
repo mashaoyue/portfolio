@@ -1,0 +1,70 @@
+{
+    "skills":[
+        {
+            "title": "Front End",
+            "content": "HTML5, CSS3, JavaScript-ES6, TypeScript, React, React hook, Next.js"
+        },
+        {
+            "title": "Back End",
+            "content": "Node.js, Express.js, MySQL, REST, AWS"
+        },
+        {
+            "title": "Libraries",
+            "content": "Material-UI, Ant-Design"
+        },
+        {
+            "title": "Version Control",
+            "content": "Git"
+        }       
+    ],
+    "projects":[
+        {
+            "project_h1": "Full Stack Developer Intern",
+            "project_h2": "iShare Incubator Pty Ltd",
+            "duration": "Jul 2020 – Current",
+            "icon": "/images/icons/ishare.png",
+            "icon_alt": "iShare",
+            "sub_projects":[
+                {
+                    "title": "1. Accommodation management system development",
+                    "details":[
+                        "Developed accommodation management system as a member of a six-person team using React, Material-UI, Express.js and MySQL.",
+                        "Implemented responsive web design to make web pages rendered well on all devices.",
+                        "Developed reusable responsive calendar component to display, add and update reservations.",
+                        "Created MySQL Unique Index for log table to avoid date range overlapping of reservations.",
+                        "Proposed architecture and implement from scratch to reduce routine operations over 30%."
+                    ]
+                },
+                {
+                    "title": "2. Co-Working Space System development",
+                    "details":[
+                        "Developed locker moudle for Co-Working Space System using React, Material-UI, Express.js and MySQL.",
+                        "Developed responsive mobile-first web pages to ensure seamless of users' experience on any device.",
+                        "Implemented access control policy by authentication and authorization to ensure proper allocation of access rights.",
+                        "Liaised with Product Manager, sought feedback and implemented further customers’ requirements.",
+                        "Completed this project on schedule and received 95% of positive feedback."
+                    ]
+                }
+            ]
+        },
+        {
+            "project_h1": "Accommodation Website Development",
+            "project_h2": "UNSW Graduation Project",
+            "duration": "Aug 2019 - Nov 2019",
+            "icon": "/images/icons/unsw.png",
+            "icon_alt": "iShare",
+            "sub_projects":[
+                {
+                    "title": "",
+                    "details":[
+                        "Designed and developed front-end part of an accommodation website using Next.js and Ant Design.",
+                        "Implemented Server-Side Rendering technique resulting in improved response time and consistent SEO performance.",
+                        "Integrated third party APIs such as Google Maps API for more useful functionalities.",
+                        "Collaborated with back-end developers to implement new feature developments.",
+                        "http://unsw.yggtbb.com/"
+                    ]
+                }
+            ]
+        }
+    ]
+}
