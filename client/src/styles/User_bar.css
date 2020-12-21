@@ -21,6 +21,7 @@
     overflow-y: hidden;
     position: relative;
     
+    
 }
 
 .user_img_scroll_bar{
@@ -28,12 +29,21 @@
     top: 0;
 }
 
-.user_img_div img {
-    display: block;
+.user_img_div > .user_img {
+    /* display: block;
+    object-fit: cover ;
     width: 260px; 
+    height: 260px; 
+    border-radius: 10px; */
+    /* background-image: url("../img/ava/ava1.png"); */
+    display:block;
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 260px;
-    object-fit: cover;
-    border-radius: 10px;
+    width: 260px;
+
 }
 
 .icon_container{
@@ -67,9 +77,15 @@
     /* color: theme.palette.grey[500], */
 }
 
-.dialog_title{
+.dialog_title_panel{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dialog_title_wechat_id{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -103,3 +119,12 @@
         display: none;
     }   
 }
+
+/* .test{
+    background-image: url("../img/ava/ava1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 260px;
+    width: 260px;
+} */

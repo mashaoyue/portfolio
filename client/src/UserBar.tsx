@@ -17,7 +17,7 @@ const urls = [
     },
     {
         "id": "ava2",
-        "url": '/images/ava/ava3.jpg'
+        "url": '/images/ava/ava3.png'
     },
 ]
 
@@ -138,7 +138,8 @@ const UserBar = ()=>{
             <div className="user_img_container">
                 <div ref={calendarContainerRef} className="user_img_div">
                     {imgUrl.map((item, index)=>(
-                        <img id={item.id} key={item.id} className="user_img" src={item.url} alt="avatar"/>
+                        // <img id={item.id} key={item.id} className="user_img" src={item.url} alt="avatar"/>
+                        <div id={item.id} key={item.id} className="user_img" style={{backgroundImage: `url('${item.url}')`}}></div>
                     ))}
                 </div>
                 
@@ -159,12 +160,14 @@ const UserBar = ()=>{
             </div>
 
             <Dialog onClose={handleCloseWechat} open={openWechat}>
-                <MuiDialogTitle style={{paddingBottom:0}} id="wechat-dialog">
-                    <div className="dialog_title">
-                        <strong>Wechat ID:</strong>&nbsp;primer12450
+                <MuiDialogTitle style={{padding:"0px 5px"}} id="wechat-dialog">
+                    <div className="dialog_title_panel">
                         <IconButton aria-label="close" className="wechatDialogCloseIcon" onClick={handleCloseWechat}>
                             <CloseIcon />
                         </IconButton>
+                    </div>
+                    <div className="dialog_title_wechat_id">
+                        <strong>Wechat ID:</strong>&nbsp;primer12450
                     </div>
                 </MuiDialogTitle>
                 <MuiDialogContent>
