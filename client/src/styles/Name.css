@@ -60,7 +60,7 @@
 
 .cashier{
     color:#e28e6d;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .gamer{
@@ -69,8 +69,8 @@
 }
 
 .musician{
-    color:#f7786b;
-    opacity: 0.3;
+    color:#ffccff;
+    opacity: 0.6;
 }
 
 .and{

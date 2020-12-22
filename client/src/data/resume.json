@@ -48,6 +48,24 @@
             ]
         },
         {
+            "project_h1": "",
+            "project_h2": "My Portfolio Website Development",
+            "duration": "May 2019 - Jun 2019",
+            "icon": "/images/icons/r.png",
+            "icon_alt": "Ralph Ma",
+            "sub_projects":[
+                {
+                    "title": "",
+                    "details":[
+                        "Designed and developed front-end application using React and TypeScript.",
+                        "Implemented responsive design using CSS Grid and Flexbox.",
+                        "Deployed above React application in Nginx server in AWS EC2.",
+                        "http://ralphma.me/ (This Site)"
+                    ]
+                }
+            ]
+        },
+        {
             "project_h1": "Accommodation Website Development",
             "project_h2": "UNSW Graduation Project",
             "duration": "Aug 2019 - Nov 2019",

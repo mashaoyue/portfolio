@@ -33,15 +33,15 @@ const Name = ()=>{
                 <h2 style={{opacity:0.7}} className="and">
                     ,&nbsp;AND&nbsp;
                 </h2>
-                <h2 className="cashier">
-                    CASHIER
+                <h2 className="gamer">
+                    GAMER
                 </h2>
                 <div className="additional_info">
                 <h2 style={{opacity:0.6}} className="and">
                     ,&nbsp;AND&nbsp;
                 </h2>
-                <h2 className="gamer">
-                    GAMER
+                <h2 className="cashier">
+                    CASHIER
                 </h2>
                 <h2 style={{opacity:0.3}} className="and">
                     ,&nbsp;AND&nbsp;

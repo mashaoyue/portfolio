@@ -108,9 +108,9 @@ const Resume = ()=>{
                 {data.projects.map((item, index)=>{
                     return(
                         <div key={index} className="project_container">
-                            <div className="project_h1 para-title">
+                            {item.project_h1===""?null:<div className="project_h1 para-title">
                                 {item.project_h1}
-                            </div>
+                            </div>}
                             <div className="project_h2">
                                 <div className="project_header para-title">
                                     <img src={item.icon} alt={item.icon_alt}/>
@@ -126,7 +126,7 @@ const Resume = ()=>{
                                             <ul className="list_container">
                                                 {project.details.map((detail, detail_index)=>{
                                                     return(
-                                                        <li key={detail_index} className="list_item para-content">{detail.length>7 && detail.slice(0,7)==="http://"?<a href={detail} rel="noreferrer" target="_blank">{detail}</a>:detail}</li>
+                                                        <li key={detail_index} className="list_item para-content">{detail.length>7 && detail.slice(0,7)==="http://"?<div><a href={detail.slice(0, detail.indexOf(" "))} rel="noreferrer" target="_blank">{detail.slice(0, detail.indexOf(" "))}</a><span>{detail.slice(detail.indexOf(" "))}</span></div>:detail}</li>
                                                     )
                                                 })}
                                             </ul>
