@@ -1,7 +1,7 @@
 .name_container{
     margin: 10px 0 0 0;
-    padding: 30px 20px;
-    border-top: 1px solid rgba(0,0,0,0.2);
+    padding: 15px 20px 25px 20px;
+    /* border-top: 1px solid rgba(0,0,0,0.2); */
 }
 
 @media (max-width: 800px){
@@ -23,7 +23,7 @@
 }
 
 .careers {
-    margin-top: 10px;
+    margin-top: 20px;
     line-height: 24px;
 }
 
